@@ -1,0 +1,48 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+}
+.grid-container > div {
+    background-color: turquoise;
+}
+.sidebar {
+    grid-row: 1/3;
+    width: 450px;
+}
+footer {
+    grid-column: 1/4;
+    height: 100px;
+    background-color: violet;
+}
+.experience {
+    grid-column: 2/4;
+    height: 500px;
+    width: 900px;
+}
+.education {
+    grid-column: 2/4;
+    height: 500px;
+    width: 900px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+div.container {
+    padding-left: 10px;
+}
+i {
+    font-size: large;
+    padding: 10px;
+}
+span {
+    font-size: large;
+    padding: 10px;
+}
+h1 {
+    padding: 10px;
+}
