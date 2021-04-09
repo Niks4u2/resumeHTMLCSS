@@ -50,11 +50,14 @@ span {
 h1 {
     padding: 10px;
 }
-a:link {
+#linkedin:link {
     color: #1e3058;
     text-decoration: none;
     cursor: pointer;
     padding-left: 10px;
+}
+#linkedin:visited {
+    color: #1e3058;
 }
 
 footer > p {
@@ -68,4 +71,18 @@ footer > p {
     padding-left: 10px;
     font-size: large;
     font-weight: 600;
+}
+#social {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+}
+#s-links:link {
+    color: white;
+}
+#s-links:visited {
+    color: white;
+}
+#s-links:hover {
+    opacity: 0.6;
 }
