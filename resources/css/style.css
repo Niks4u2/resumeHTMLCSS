@@ -60,3 +60,12 @@ a:link {
 footer > p {
     text-align: center;
 }
+#skill {
+    font-size: xx-large;
+    padding-top: 20px;
+}
+.container > p {
+    padding-left: 10px;
+    font-size: large;
+    font-weight: 600;
+}
