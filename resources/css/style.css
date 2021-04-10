@@ -59,6 +59,9 @@ h1 {
 #linkedin:visited {
     color: #1e3058;
 }
+#linkedin:hover {
+    opacity: 0.8;
+}
 
 footer > p {
     text-align: center;
@@ -99,4 +102,9 @@ footer > p {
 }
 .education > h4 {
     padding-left: 70px;
+}
+strong {
+    display: block;
+    font-size: xx-large;
+    padding: 10px;
 }
