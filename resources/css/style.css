@@ -66,11 +66,11 @@ footer > p {
 #skill {
     font-size: xx-large;
     padding-top: 20px;
+    font-weight: 1000;
 }
 .container > p {
     padding-left: 10px;
     font-size: large;
-    font-weight: 600;
 }
 #social {
     display: grid;
@@ -85,4 +85,18 @@ footer > p {
 }
 #s-links:hover {
     opacity: 0.6;
+}
+.experience > h4 {
+    padding-left: 65px;
+}
+#calendar {
+    padding-left: 65px;
+}
+.desc {
+    padding-left: 65px;
+    font-size: small;
+    padding-right: 10px;
+}
+.education > h4 {
+    padding-left: 70px;
 }
